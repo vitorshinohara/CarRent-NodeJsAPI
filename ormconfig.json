@@ -1,0 +1,12 @@
+{
+    "type": "mysql",
+    "host": "localhost",
+    "username": "root",
+    "password": "root",
+    "database": "rentx",
+    "entities": ["./src/modules/cars/entities/*.ts"],
+    "migrations": ["./src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
